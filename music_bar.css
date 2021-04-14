@@ -1,0 +1,46 @@
+.music_bar_column {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.music_bar_box {
+  border: 1px solid #f0e4ee;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.music_bar_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.music_bar_singer {
+  margin: 10px 0px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.music_bar_text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+
+.music_bar_firstbox {
+  background-color: rgb(243, 63, 63);
+}
+
+.music_bar_secondbox {
+  background-color: rgb(245, 140, 231);
+}
+
+.music_bar_thirdbox {
+  background-color: rgb(18, 22, 238);
+}
+
+.music_bar_fourthbox {
+  background-color: rgb(24, 138, 24);
+}

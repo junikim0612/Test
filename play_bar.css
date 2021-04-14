@@ -1,0 +1,45 @@
+.play_bar_column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 30px 0px 20px -15px;
+}
+button {
+  background-color: #f0e4ee;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid #d84990;
+  box-shadow: 10px green;
+  color: rgb(219, 112, 70);
+  box-shadow: 0 6px 2px -2px rgb(236, 167, 16);
+}
+
+.play_bar_button_play {
+  width: 160px;
+  border-radius: 15px;
+}
+
+.play_bar_button_heart,
+.play_bar_button_plus {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.play_bar_button_heart i:hover {
+  animation: heartbeat 1s linear infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}

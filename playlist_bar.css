@@ -1,0 +1,54 @@
+.playlist_bar_column {
+  display: flex;
+  align-items: center;
+}
+
+.playlist_bar_box {
+  background-color: #e9d946;
+  border: 2px solid rgb(255, 226, 221);
+  border-radius: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.playlist_bar_box_image i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 36px 0px;
+  font-size: 45px;
+}
+
+.playlist_bar_title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.playlist_bar_singer {
+  margin: 10px 0px;
+  font-weight: 600;
+}
+
+.playlist_bar_text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+}
+
+.play_bar_button_heart i:hover {
+  animation: heartbeat 1s linear infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    color: white;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+  }
+}
